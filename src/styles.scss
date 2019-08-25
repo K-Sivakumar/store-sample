@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+app-root {
+  margin: 0;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+body {
+  overflow-y: auto;
+}
+
+body,
+app-root {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+header {
+  flex: none;
+  background:#F5FCF4
+}
+
+footer {
+  flex: none;
+  background: #363636;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
